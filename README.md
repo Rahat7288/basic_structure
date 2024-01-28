@@ -1,17 +1,12 @@
-# besic_structure
+# note ======
+This structure i like to follow for my own projects. 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# basic_structure
+1. contorllers
+   -> Bloc/Provider (or any state management you want to use)
+   -> repository (controlls app the API communications
+   -> utils (contains the const files)
+2. models
+   -> contains all the models to interect with the API's and views.
+3. Viewss
+   -> Screens
+   -> widgets
